@@ -16,6 +16,10 @@
         <section id="about" class="bg-white rounded-lg shadow-md p-5 mb-6">
             <h2 class="text-2xl font-semibold text-green-500 mb-3">Tentang Saya</h2>
             <p>Halo, nama saya Aldinand Santoso. Saya seorang pelajar SMK Telkom Purwokerto.</p>
+
+            <a href="{{ route('about') }}">About Me</a>
+            <a href="{{ route('login') }}">Login</a>
+
         </section>
 
         <section id="skills" class="bg-white rounded-lg shadow-md p-5 mb-6">
